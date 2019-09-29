@@ -1,0 +1,10 @@
+Review comments:
+
+1. Added Config.properties containing the URL from which the property file is read
+2. Property file Reader.java added for reading the URL and any other properties which can be added in the Config.properties file
+2. Added TestNg.xml file for test integration run for all the tes classes
+3. Added src/test/java folder containing the Test files containing the Test cases: FlightBookingTest.java, HotelBookingTest.java and SignInTest.java 
+4. Added TestNg annotations in the test classes with @BeforeTest- Webdriver inititiation and getting the Cleartrip URL
+@AfterTest- Closes the driver
+5.Added Utils.java file containing the Driver initiation method and other resuable method
+6. Added PageFactory for each of the pages, Hotel, flights and signin page
